@@ -1,0 +1,224 @@
+body {
+   
+    background-image: url('../images/background.jpg'); 
+    background-size: cover;                   
+    background-position: center;              
+    background-attachment: fixed;             
+    background-repeat: no-repeat;             
+    
+
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+}
+
+.welcome-text {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 22px;                        
+    font-weight: 500;                       
+    color: #93c5fd;                        
+    letter-spacing: 2px;                     
+    text-transform: uppercase;             
+    margin-top: 5px;                         
+    margin-bottom: 20px;                     
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.about-card {
+    background-color: #0f172a;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.creative-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    border-bottom: 3px solid #2563eb; 
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.about-card h2, .about-card h3 {
+    color: #60a5fa;
+}
+
+.skills-list {
+    padding-left: 20px;
+}
+
+.skills-list li {
+    margin-top: 5px;
+}
+
+.section-title {
+    margin: 30px 0 15px 0;
+    color: white;
+}
+
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 15px;
+}
+
+.card {
+    background-color: #0f172a;
+    width: 260px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align:justify;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+.card h3 {
+    color: #60a5fa;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.contact-card {
+    width: 400px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.contact-card h2 {
+    color: #60a5fa;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    background-color: #1e293b;
+    color: white;
+    border: 1px solid #334155;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #1e293b;   
+    border: 1px solid #60a5fa;   
+    cursor: pointer;             
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #0f172a;       
+    border-bottom: 1px solid #1e293b; 
+    padding: 10px 20px;             
+    position: sticky;                
+    top: 0;
+    z-index: 100;                    
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;             
+    width: 100%;                    
+    max-width: 100%;               
+    margin: 0;                       
+}
+
+.logo-area {
+    display: flex;
+    flex-direction: row;   
+    align-items: center;    
+    gap: 10px;             
+    margin-left: 0;         
+}
+
+.nav-logo {
+    width: 70px;            
+    height: 70px;
+    border-radius: 50%;     
+    object-fit: cover;     
+}
+
+.logo-text {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #60a5fa;                 
+    font-size: 20px;
+}
+
+.nav-links {
+    list-style: none;               
+    display: flex;
+    gap: 25px;                     
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: #94a3b8;                  
+    text-decoration: none;           
+    font-size: 20px;        
+    font-weight: 600;
+    transition: 0.2s;                
+}
+
+
+.nav-links a:hover {
+    color: #60a5fa;                
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #94a3b8;
+}
